@@ -63,6 +63,8 @@ EXCLUDE_PATTERNS = [
     r'^pyproject\.toml$',  # Python project configuration
     r'^setup\.py$',  # Legacy Python packaging
     r'^setup\.cfg$',  # Legacy Python packaging
+    r'^\d{4}-\d{2}-\d{2}-.*',  # Date-prefixed session/log files
+    r'^ecosystem\.yaml$',  # Project-level ecosystem configuration
 ]
 
 EXCLUDE_DIRS = [
@@ -80,6 +82,7 @@ EXCLUDE_DIRS = [
     'docs',  # Documentation directory exempt
     'tests',  # Test files follow pytest conventions, not FUNCTIONcalled
     'examples',  # Example scripts follow their own conventions
+    'ecosystem',  # Ecosystem configuration directory exempt
 ]
 
 
