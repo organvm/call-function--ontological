@@ -20,5 +20,3 @@ Thumbs.db
 # Temp/cache files
 _gemini_visit_*.json
 
-# removed inadvertently-committed local session artifacts (PII containment)
-2026-04-04-145105-define-the-workspace-folder-ideal-form-and-purpose.txt
