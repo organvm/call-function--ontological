@@ -83,6 +83,7 @@ EXCLUDE_DIRS = [
     'tests',  # Test files follow pytest conventions, not FUNCTIONcalled
     'examples',  # Example scripts follow their own conventions
     'ecosystem',  # Ecosystem configuration directory exempt
+    'logs',  # Runtime/agent logs follow producer schemas, not FUNCTIONcalled
 ]
 
 

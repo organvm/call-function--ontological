@@ -250,6 +250,12 @@ class TestExclusionRules:
         path = root / "tools" / "validate_meta.py"
         assert is_excluded(path, root), "Files in tools/ should be excluded"
 
+    def test_logs_directory_excluded(self):
+        """Files in logs/ directory should be excluded."""
+        root = Path("/fake/root")
+        path = root / "logs" / "agents" / "opencode.json"
+        assert is_excluded(path, root), "Files in logs/ should be excluded"
+
     def test_venv_directory_excluded(self):
         """Files in .venv/ directory should be excluded."""
         root = Path("/fake/root")
