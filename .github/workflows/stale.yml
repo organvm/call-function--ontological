@@ -15,7 +15,7 @@ jobs:
           stale-issue-message: 'Marked stale due to inactivity. Will close in 14 days.'
           stale-pr-message: 'Marked stale due to inactivity. Will close in 14 days.'
           days-before-stale: 60
-          days-before-close: 14
+          days-before-close: -1
           exempt-issue-labels: 'pinned,evergreen,omega,blocked'
           exempt-pr-labels: 'pinned,evergreen,work-in-progress'
           stale-issue-label: 'stale'
