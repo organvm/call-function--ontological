@@ -1,0 +1,11 @@
+{
+  "agent": "opencode",
+  "status": "idle",
+  "accepting_tasks": true,
+  "available_tokens": 37157266,
+  "available_pct": 74.3,
+  "current_task_id": "HEAL-cifix-organvm-call-function--ontological-10",
+  "heartbeat": "2026-07-04T07:45:09.942398+00:00",
+  "token_usage_pct": 25.69,
+  "clock_health": "ok"
+}
